@@ -1,15 +1,17 @@
 body {
     background-color: black;
-    color: lime;
+    color: white;
     font-family: "Courier New", Courier, monospace;
     text-align: center;
-    padding: 20px;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
 }
 
 .container {
     max-width: 400px;
-    margin: auto;
-    border: 2px solid lime;
+    border: 2px solid white;
     padding: 20px;
     border-radius: 5px;
 }
@@ -22,13 +24,13 @@ input, button {
 
 input {
     background: black;
-    color: lime;
-    border: 1px solid lime;
+    color: white;
+    border: 1px solid white;
     padding: 5px;
 }
 
 button {
-    background: lime;
+    background: white;
     color: black;
     border: none;
     padding: 10px;
@@ -36,7 +38,7 @@ button {
 }
 
 button:hover {
-    background: darkgreen;
+    background: gray;
 }
 
 .hidden {
@@ -59,3 +61,4 @@ button:hover {
     font-weight: bold;
     margin-top: 20px;
 }
+
